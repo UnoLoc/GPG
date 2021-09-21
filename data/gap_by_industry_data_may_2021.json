@@ -1,11 +1,8 @@
 [
     {
         "industry": "Professional, Scientific, and Technical Services",
+        "gap": 25.3,
         "baseline": 1.0
-    },
-    {
-        "industry": "Professional, Scientific, and Technical Services",
-        "gap": 25.3
     },
     {
         "industry": "Financial and Insurance Services",

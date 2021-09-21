@@ -1,12 +1,9 @@
 [
     {
         "manager_category": "Key Management Personnel",
-        "baseline": 1.0
-    },
-    {
-        "manager_category": "Key Management Personnel",
         "gap_percentage": 23.4,
-        "gap_dollar_value": 89141
+        "gap_dollar_value": 89141,
+        "baseline": 1.0
     },
     {
         "manager_category": "Other Executives / General Managers",
