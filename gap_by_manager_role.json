@@ -47,7 +47,8 @@
                     {
                         "field": "gap_by_dollar",
                         "type": "nominal",
-                        "title": "Wage Gap ($)"
+                        "title": "Wage Gap ($)",
+                        "format": ".2f"
                     },
                     {
                         "field": "gap_dollar_value",
