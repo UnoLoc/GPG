@@ -5,9 +5,9 @@
     <title>The Gender Gap in Australia</title>
     <meta charset="utf-8" />
 
-    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.1"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.18.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css"
         integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
@@ -69,8 +69,6 @@
 
             <div class="pure-u-1-3">
                 <div id="visualisation-employment-types-female" class="vis-container"></div>
-                <!-- Employment Types Female -->
-                employment types female visualisation
             </div>
         </div>
         <!-- end pure grid group -->
@@ -87,8 +85,6 @@
             </div>
             <div class="pure-u-2-3">
                 <div id="visualisation-manager-proportions" class="vis-container"></div>
-                <!-- manager proportions by gender visualisation -->
-                manager proportions by gender visualisation . . . . . . . . . . . . . . . . . . . . . . . .
             </div>
         </div>
         <!-- end pure grid group -->
@@ -110,8 +106,6 @@
             </div>
             <div class="pure-u-2-3">
                 <div id="visualisation-non-manager-proportions" class="vis-container"></div>
-                <!-- non-manager proportions by gender visualisation -->
-                non-manager proportions by gender visualisation . . . . . . . . . . . . . . . . . . . . . . . .
             </div>
         </div>
         <!-- end pure grid group -->
@@ -133,8 +127,6 @@
             </div>
             <div class="pure-u-2-3">
                 <div id="visualisation-gap-by-manager-role" class="vis-container"></div>
-                <!-- pay gap by manager role -->
-                pay gap by manager role . . . . . . . . . . . . . . . . . . . . . . . .
             </div>
         </div>
         <!-- end pure grid group -->
@@ -156,8 +148,6 @@
             </div>
             <div class="pure-u-2-3">
                 <div id="visualisation-gap-by-non-manager-role" class="vis-container"></div>
-                <!-- pay gap by non-manager role -->
-                pay gap by non-manager role . . . . . . . . . . . . . . . . . . . . . . . .
             </div>
         </div>
         <!-- end pure grid group -->
@@ -168,18 +158,18 @@
             <div class="pure-u-1-3">
                 <div class="centred">
                     <p>
-                        The Gender Pay Gap is at its widest in Western Australia, with women earning $0.78 per dollar compared to men working in the state.
+                        The Gender Pay Gap is at its widest in Western Australia, with women earning $0.78 per dollar
+                        compared to men working in the state.
                     </p>
 
                     <p>
-                        South Australia has the smallest Gender Pay Gap, with women earning $0.93 per dollar earned by men.
+                        South Australia has the smallest Gender Pay Gap, with women earning $0.93 per dollar earned by
+                        men.
                     </p>
                 </div>
             </div>
             <div class="pure-u-2-3">
                 <div id="visualisation-gap-by-state" class="vis-container"></div>
-                <!-- pay gap by state -->
-                pay gap by state . . . . . . . . . . . . . . . . . . . . . . . .
             </div>
         </div>
         <!-- end pure grid group -->
@@ -190,18 +180,18 @@
             <div class="pure-u-1-3">
                 <div class="centred">
                     <p>
-                        Women working in the Professional, Scientific, and Technical Services industry earn just $0.74 for every dollar men in the same industry make.
+                        Women working in the Professional, Scientific, and Technical Services industry earn just $0.74
+                        for every dollar men in the same industry make.
                     </p>
 
                     <p>
-                        The industry with one of the smallest Gender Pay Gaps is the Public Administration and Safety industry, at $0.92 for every dollar earned by men.
+                        The industry with one of the smallest Gender Pay Gaps is the Public Administration and Safety
+                        industry, at $0.92 for every dollar earned by men.
                     </p>
                 </div>
             </div>
             <div class="pure-u-2-3">
                 <div id="visualisation-gap-by-industry" class="vis-container"></div>
-                <!-- pay gap by industry -->
-                pay gap by industry . . . . . . . . . . . . . . . . . . . . . . . .
             </div>
         </div>
         <!-- end pure grid group -->
@@ -222,8 +212,6 @@
             </div>
             <div class="pure-u-2-3">
                 <div id="visualisation-gap-over-time" class="vis-container"></div>
-                <!-- pay gap over time -->
-                pay gap over time . . . . . . . . . . . . . . . . . . . . . . . .
             </div>
         </div>
         <!-- end pure grid group -->
@@ -242,40 +230,31 @@
     var visualisationGapByIndustry = "./gap_by_industry.json";
     var visualisationGapOverTime = "./gap_over_time.json";
 
-    vegaEmbed('#visualisation-employment-types-male', visualisationEmploymentTypesMale, { "actions": false }).then(function (result) {
-        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    vegaEmbed('#visualisation-employment-types-male', visualisationEmploymentTypesMale).then(function (result) {
     }).catch(console.error);
 
-    vegaEmbed('#visualisation-employment-types-female', visualisationEmploymentTypesFemale, { "actions": false }).then(function (result) {
-        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    vegaEmbed('#visualisation-employment-types-female', visualisationEmploymentTypesFemale).then(function (result) {
     }).catch(console.error);
 
-    vegaEmbed('#visualisation-manager-proportions', visualisationManagerProportions, { "actions": false }).then(function (result) {
-        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    vegaEmbed('#visualisation-manager-proportions', visualisationManagerProportions).then(function (result) {
     }).catch(console.error);
 
-    vegaEmbed('#visualisation-non-manager-proportions', visualisationNonManagerProportions, { "actions": false }).then(function (result) {
-        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    vegaEmbed('#visualisation-non-manager-proportions', visualisationNonManagerProportions).then(function (result) {
     }).catch(console.error);
 
-    vegaEmbed('#visualisation-gap-by-manager-role', visualisationGapByManagerRole, { "actions": false }).then(function (result) {
-        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    vegaEmbed('#visualisation-gap-by-manager-role', visualisationGapByManagerRole).then(function (result) {
     }).catch(console.error);
 
-    vegaEmbed('#visualisation-gap-by-non-manager-role', visualisationGapByNonManagerRole, { "actions": false }).then(function (result) {
-        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    vegaEmbed('#visualisation-gap-by-non-manager-role', visualisationGapByNonManagerRole).then(function (result) {
     }).catch(console.error);
 
-    vegaEmbed('#visualisation-gap-by-state', visualisationGapByState, { "actions": false }).then(function (result) {
-        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    vegaEmbed('#visualisation-gap-by-state', visualisationGapByState).then(function (result) {
     }).catch(console.error);
 
-    vegaEmbed('#visualisation-gap-by-industry', visualisationGapByIndustry, { "actions": false }).then(function (result) {
-        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    vegaEmbed('#visualisation-gap-by-industry', visualisationGapByIndustry).then(function (result) {
     }).catch(console.error);
 
-    vegaEmbed('#visualisation-gap-over-time', visualisationGapOverTime, { "actions": false }).then(function (result) {
-        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    vegaEmbed('#visualisation-gap-over-time', visualisationGapOverTime).then(function (result) {
     }).catch(console.error);
 
 </script>
