@@ -1,0 +1,54 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Male Employment Type Proportions (2020)",
+    "width": 400,
+    "height": 400,
+    "data": {
+        "url": "data/fulltime_percentages_male_2020.json"
+    },
+    "encoding": {
+        "theta": {
+            "field": "proportion",
+            "type": "quantitative",
+            "stack": true
+        },
+        "color": {
+            "field": "type",
+            "type": "nominal",
+            "legend": null
+        },
+        "tooltip": [
+            {
+                "field": "type",
+                "type": "nominal",
+                "title": "Employment Type"
+            },
+            {
+                "field": "proportion",
+                "type": "quantitative",
+                "format": ".2f",
+                "title": "Proportion (%)"
+            }
+        ]
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "arc",
+                "outerRadius": 80
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "radius": 90
+            },
+            "encoding": {
+                "text": {
+                    "field": "type",
+                    "type": "nominal"
+                }
+            }
+        }
+    ]
+}
