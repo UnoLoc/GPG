@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Gender Pay Gap by State (as of May 2021)",
+    "title": "Gender Pay Gap by State (May 2021)",
     "width": 600,
-    "height": 600,
+    "height": 450,
     "projection": {
         "type": "equirectangular"
     },
@@ -43,7 +43,7 @@
                 "range": ["#C8B1FF", "#7439FF"],
                 "reverse": true
             },
-            "title": "Pay Gap ($)"
+            "title": "Gender Pay Gap ($)"
         },
         "tooltip": [
             {
@@ -55,7 +55,7 @@
                 "field": "gap_by_dollar",
                 "type": "quantitative",
                 "format": ".2f",
-                "title": "Women's Earnings Per Dollar"
+                "title": "Gender Pay Gap ($)"
             }
         ]
     }

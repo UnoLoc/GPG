@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Wage Gender Gap Over Time",
+  "title": "Gender Pay Gap Over Time",
   "width": 300,
   "height": 200,
   "data": {
@@ -27,7 +27,7 @@
       {
         "field": "gap_by_dollar",
         "type": "quantitative",
-        "title": "Wage Gap ($)",
+        "title": "Gender Pay Gap ($)",
         "format": ".2f"
       }
     ]
@@ -47,7 +47,7 @@
         "y": {
           "field": "gap_by_dollar",
           "type": "quantitative",
-          "title": "Wage Gap ($)",
+          "title": "Gender Pay Gap ($)",
           "scale": {
             "domainMax": 1.1,
             "domainMin": 0

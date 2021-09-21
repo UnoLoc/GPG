@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Gender Wage Gap by Manager Category (as of May 2021)",
+    "title": "Gender Pay Gap by Manager Category (May 2021)",
     "width": 400,
     "height": 150,
     "data": {
@@ -19,7 +19,7 @@
                 "x": {
                     "field": "gap_by_dollar",
                     "type": "quantitative",
-                    "title": "Wage Gap ($)",
+                    "title": "Gender Pay Gap ($)",
                     "scale": {
                         "domainMax": 1.1,
                         "domainMin": 0
@@ -47,13 +47,13 @@
                     {
                         "field": "gap_by_dollar",
                         "type": "nominal",
-                        "title": "Wage Gap ($)",
+                        "title": "Gender Pay Gap ($)",
                         "format": ".2f"
                     },
                     {
                         "field": "gap_dollar_value",
                         "type": "quantitative",
-                        "title": "Wage Gap Value (AUD)"
+                        "title": "Gender Pay Gap p.a. ($)"
                     }
                 ]
             }
