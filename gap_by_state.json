@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Gender Pay Gap by State (May 2021)",
     "width": 400,
-    "height": 450,
+    "height": 300,
     "projection": {
         "type": "equirectangular"
     },

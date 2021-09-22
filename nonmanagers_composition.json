@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Non-Manager Proportions by Gender (2020)",
-    "width": 600,
+    "width": 400,
     "height": 360,
     "data": {
         "url": "data/nonmanagers_by_gender_2020.json"
