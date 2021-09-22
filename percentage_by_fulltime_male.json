@@ -15,7 +15,12 @@
         "color": {
             "field": "type",
             "type": "nominal",
-            "legend": null
+            "legend": null,
+            "scale": {
+                "range": [
+                    "#D81B60", "#1E88E5", "#004D40"
+                ]
+            }
         },
         "tooltip": [
             {

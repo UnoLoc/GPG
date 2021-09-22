@@ -22,6 +22,11 @@
             "field": "gender",
             "legend": {
                 "title": "Gender"
+            },
+            "scale": {
+                "range": [
+                    "#7439FF", "#FFC107"
+                ]
             }
         },
         "tooltip": [
