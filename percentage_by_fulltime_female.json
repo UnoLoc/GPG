@@ -35,13 +35,13 @@
         {
             "mark": {
                 "type": "arc",
-                "outerRadius": 160
+                "outerRadius": 130
             }
         },
         {
             "mark": {
                 "type": "text",
-                "radius": 185
+                "radius": 150
             },
             "encoding": {
                 "text": {
