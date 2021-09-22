@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Male Employment Types (2020)",
+    "title": "Male Employment (2020)",
     "width": 300,
     "height": 300,
     "config": {
