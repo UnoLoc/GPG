@@ -3,6 +3,30 @@
     "title": "Manager Proportions by Gender (2020)",
     "width": 400,
     "height": 280,
+    "config": {
+        "axis": {
+            "labelFont": "Poppins",
+            "titleFont": "Poppins"
+        },
+        "legend": {
+            "labelFont": "Poppins",
+            "titleFont": "Poppins"
+        },
+        "header": {
+            "labelFont": "Poppins",
+            "titleFont": "Poppins"
+        },
+        "mark": {
+            "font": "Poppins"
+        },
+        "title": {
+            "font": "Poppins",
+            "subtitleFont": "Poppins"
+        },
+        "text": {
+            "font": "Poppins"
+        }
+    },
     "data": {
         "url": "data/managers_by_gender_2020.json"
     },

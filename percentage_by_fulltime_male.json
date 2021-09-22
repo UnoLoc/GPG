@@ -3,6 +3,30 @@
     "title": "Male Employment Type Proportions (2020)",
     "width": 300,
     "height": 300,
+    "config": {
+        "axis": {
+            "labelFont": "Poppins",
+            "titleFont": "Poppins"
+        },
+        "legend": {
+            "labelFont": "Poppins",
+            "titleFont": "Poppins"
+        },
+        "header": {
+            "labelFont": "Poppins",
+            "titleFont": "Poppins"
+        },
+        "mark": {
+            "font": "Poppins"
+        },
+        "title": {
+            "font": "Poppins",
+            "subtitleFont": "Poppins"
+        },
+        "text": {
+            "font": "Poppins"
+        }
+    },
     "data": {
         "url": "data/fulltime_percentages_male_2020.json"
     },
@@ -18,7 +42,9 @@
             "legend": null,
             "scale": {
                 "range": [
-                    "#D81B60", "#1E88E5", "#004D40"
+                    "#D81B60",
+                    "#1E88E5",
+                    "#004D40"
                 ]
             }
         },

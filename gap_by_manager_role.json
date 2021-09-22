@@ -3,6 +3,30 @@
     "title": "Gender Pay Gap by Manager Category (May 2021)",
     "width": 400,
     "height": 180,
+    "config": {
+        "axis": {
+            "labelFont": "Poppins",
+            "titleFont": "Poppins"
+        },
+        "legend": {
+            "labelFont": "Poppins",
+            "titleFont": "Poppins"
+        },
+        "header": {
+            "labelFont": "Poppins",
+            "titleFont": "Poppins"
+        },
+        "mark": {
+            "font": "Poppins"
+        },
+        "title": {
+            "font": "Poppins",
+            "subtitleFont": "Poppins"
+        },
+        "text": {
+            "font": "Poppins"
+        }
+    },
     "data": {
         "url": "data/gap_by_manager_role_data_2020.json"
     },

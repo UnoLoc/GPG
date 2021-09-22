@@ -3,6 +3,30 @@
     "title": "Female Employment Type Proportions (2020)",
     "width": 300,
     "height": 300,
+    "config": {
+        "axis": {
+            "labelFont": "Poppins",
+            "titleFont": "Poppins"
+        },
+        "legend": {
+            "labelFont": "Poppins",
+            "titleFont": "Poppins"
+        },
+        "header": {
+            "labelFont": "Poppins",
+            "titleFont": "Poppins"
+        },
+        "mark": {
+            "font": "Poppins"
+        },
+        "title": {
+            "font": "Poppins",
+            "subtitleFont": "Poppins"
+        },
+        "text": {
+            "font": "Poppins"
+        }
+    },
     "data": {
         "url": "data/fulltime_percentages_female_2020.json"
     },
