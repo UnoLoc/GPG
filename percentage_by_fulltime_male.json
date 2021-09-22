@@ -21,7 +21,9 @@
         },
         "title": {
             "font": "Poppins",
-            "subtitleFont": "Poppins"
+            "subtitleFont": "Poppins",
+            "fontSize": 18,
+            "fontWeight": 500
         },
         "text": {
             "font": "Poppins"

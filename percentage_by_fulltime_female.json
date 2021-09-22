@@ -21,7 +21,9 @@
         },
         "title": {
             "font": "Poppins",
-            "subtitleFont": "Poppins"
+            "subtitleFont": "Poppins",
+            "fontSize": 18,
+            "fontWeight": 500
         },
         "text": {
             "font": "Poppins"
@@ -70,7 +72,7 @@
         {
             "mark": {
                 "type": "text",
-                "radius": 150
+                "radius": 155
             },
             "encoding": {
                 "text": {
