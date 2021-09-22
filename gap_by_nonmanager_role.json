@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Gender Pay Gap by Non-Managerial Occupation (May 2021)",
-    "width": 400,
-    "height": 250,
+    "width": 600,
+    "height": 300,
     "data": {
         "url": "data/gap_by_nonmanager_role_data_2020.json"
     },

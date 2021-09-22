@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Gender Pay Gap by Industry (May 2021)",
-    "width": 400,
+    "width": 600,
     "height": 400,
     "data": {
         "url": "data/gap_by_industry_data_may_2021.json"

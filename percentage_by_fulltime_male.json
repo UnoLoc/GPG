@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Male Employment Type Proportions (2020)",
-    "width": 400,
-    "height": 400,
+    "width": 300,
+    "height": 300,
     "data": {
         "url": "data/fulltime_percentages_male_2020.json"
     },
